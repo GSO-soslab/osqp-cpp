@@ -32,7 +32,7 @@ if (NOT TARGET absl::strings OR NOT TARGET absl::status OR NOT TARGET absl::span
   FetchContent_Declare(
     abseil-cpp
     GIT_REPOSITORY https://github.com/abseil/abseil-cpp.git
-    GIT_TAG        origin/master
+    GIT_TAG        20240722.0
   )
   FetchContent_MakeAvailable(abseil-cpp)
 else()
